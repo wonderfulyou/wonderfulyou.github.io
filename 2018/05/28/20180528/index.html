@@ -8,22 +8,22 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>用CocoaPods创建Framework或静态库 | Wonderful&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="目录准备工作1.安装cocoapods 2.安装cocoapods-packager打包工具 3.了解podspec语法 4.熟悉git命令 使用Cocoapods创建项目工程文件1.创建步骤 2.文件目录介绍 配置Podspec文件1.podspec语法 2.常用配置详解 3.配置中的注意事项 验证并打包1.验证framework 2.打包 3.提交git仓库并打tag 4.packager命">
+  <meta name="description" content="本文讲述如何用cocoapods创建私有库并打包">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用CocoaPods创建Framework或静态库">
 <meta property="og:url" content="http://yoursite.com/2018/05/28/20180528/index.html">
 <meta property="og:site_name" content="Wonderful&#39;s Blog">
-<meta property="og:description" content="目录准备工作1.安装cocoapods 2.安装cocoapods-packager打包工具 3.了解podspec语法 4.熟悉git命令 使用Cocoapods创建项目工程文件1.创建步骤 2.文件目录介绍 配置Podspec文件1.podspec语法 2.常用配置详解 3.配置中的注意事项 验证并打包1.验证framework 2.打包 3.提交git仓库并打tag 4.packager命">
+<meta property="og:description" content="本文讲述如何用cocoapods创建私有库并打包">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://i1.bvimg.com/647519/519f542346a31a4d.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/63e37c862740a06a.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/3ebba9acdb283df2.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/0aeda0e4c69273a9.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/e55e96bb96bd65c9.png">
-<meta property="og:updated_time" content="2018-05-29T06:29:47.436Z">
+<meta property="og:updated_time" content="2018-05-29T09:16:43.189Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用CocoaPods创建Framework或静态库">
-<meta name="twitter:description" content="目录准备工作1.安装cocoapods 2.安装cocoapods-packager打包工具 3.了解podspec语法 4.熟悉git命令 使用Cocoapods创建项目工程文件1.创建步骤 2.文件目录介绍 配置Podspec文件1.podspec语法 2.常用配置详解 3.配置中的注意事项 验证并打包1.验证framework 2.打包 3.提交git仓库并打tag 4.packager命">
+<meta name="twitter:description" content="本文讲述如何用cocoapods创建私有库并打包">
 <meta name="twitter:image" content="http://i1.bvimg.com/647519/519f542346a31a4d.png">
   
     <link rel="alternative" href="/atom.xml" title="Wonderful&#39;s Blog" type="application/atom+xml">
@@ -184,7 +184,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
+        <p>本文讲述如何用cocoapods创建私有库并打包<br><a id="more"></a></p>
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><pre><code>1.安装cocoapods
 2.安装cocoapods-packager打包工具
 3.了解podspec语法
