@@ -125,7 +125,7 @@
 <meta property="og:image" content="http://i1.bvimg.com/647519/3ebba9acdb283df2.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/0aeda0e4c69273a9.png">
 <meta property="og:image" content="http://i1.bvimg.com/647519/e55e96bb96bd65c9.png">
-<meta property="og:updated_time" content="2018-06-01T06:45:29.875Z">
+<meta property="og:updated_time" content="2018-06-01T06:54:07.843Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用CocoaPods创建Framework或静态库">
 <meta name="twitter:description" content="本文讲述如何用cocoapods创建私有库并打包">
@@ -374,7 +374,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-01 14:45:29" itemprop="dateModified" datetime="2018-06-01T14:45:29+08:00">2018-06-01</time>
+                <time title="Modified: 2018-06-01 14:54:07" itemprop="dateModified" datetime="2018-06-01T14:54:07+08:00">2018-06-01</time>
               
             
           </span>
@@ -447,7 +447,7 @@ pod lib create YstenVideo
 <pre><code>1.    What language do you want to use?? [ Swift / ObjC ] //选择你要创建的静态库的语言
 2.    Would you like to include a demo application with your library? [ Yes / No ] //是否需要创建一个demo用来测试你的静态库
 3.    Which testing frameworks will you use? [ Specta / Kiwi / None ] //使用哪种测试框架来进行测试
-4.    Would you like to do view based testing? [ Yes / No ] //是否要做基础的视图测试 
+4.    Would you like to do view based testing? [ Yes / No ] //是否要做基础的视图测试
 5.    What is your class prefix? //文件前缀
 </code></pre><p>  下面是我选择的：<br><img src="http://i1.bvimg.com/647519/519f542346a31a4d.png" alt="Markdown"><br>  创建完成过后，我们的工程会自动打开</p>
 <p>2.文件目录介绍</p>
@@ -498,7 +498,7 @@ Classes（存放的是Framework需要的源文件或其他文件）
   #在项目中我们还会用到一些library，也需要在这里声明，比如sqllite等tbd结尾的
   s.libraries = &apos;resolv&apos;
 
-  #这里声明的存放源文件的地址，就是我们实际写的代码，可以指定后缀如.h,.m等（如：s.source_files = &apos;YstenVideo/Classes/**/*.{*h*,*m*,pch}&apos;） 
+  #这里声明的存放源文件的地址，就是我们实际写的代码，可以指定后缀如.h,.m等（如：s.source_files = &apos;YstenVideo/Classes/**/*.{*h*,*m*,pch}&apos;）
   s.source_files = &apos;YstenVideo/Classes/**/*&apos;
 
   #这里可以用来存放你的资源文件，图片，证书等，如果Classes中包含xib，        storyboard或其他资源文件也需在这里声明，用逗号隔开
@@ -551,11 +551,11 @@ end
 
 --library           Generate static libraries.  
 
---dynamic           Generate dynamic framework. 
+--dynamic           Generate dynamic framework.
 
 --bundle-identifier Bundle identifier for dynamic framework.  
 
---exclude-deps      Exclude symbols from dependencies. 
+--exclude-deps      Exclude symbols from dependencies.
 
 --configuration     Build the specified configuration (e.g. Debug).Defaults to Release.  
 
