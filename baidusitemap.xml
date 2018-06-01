@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/28/20180528/</loc>
+    <lastmod>2018-06-01T06:45:29.875Z</lastmod>
+    <data>
+        <display>
+        <title>用CocoaPods创建Framework或静态库</title>
+        <pubTime>2018-05-28T09:01:41.000Z</pubTime>
+        
+        <tag>CocoaPods</tag>
+         
+        <tag>Framework</tag>
+         
+        <tag>私有库</tag>
+         
+        <tag>podspec</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/05/30/20180530/</loc>
     <lastmod>2018-05-30T10:08:25.189Z</lastmod>
     <data>
@@ -25,21 +48,6 @@
         <display>
         <title>Hello World</title>
         <pubTime>2018-05-28T08:59:30.553Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/05/28/20180528/</loc>
-    <lastmod>2018-05-29T09:16:43.189Z</lastmod>
-    <data>
-        <display>
-        <title>用CocoaPods创建Framework或静态库</title>
-        <pubTime>2018-05-28T09:01:41.000Z</pubTime>
         
          
            
